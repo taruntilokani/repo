@@ -4,7 +4,7 @@ services:
     # replace username/repo:tag with your name and image details
     image: taruntilokani/june2018
     deploy:
-      replicas: 2
+      replicas: 3
       restart_policy:
         condition: on-failure
       resources:
